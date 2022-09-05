@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="POST" name="my form">
+<fieldset>
+    <legend>Important information</legend>
+    <label for="username">username:</label><br>
+        <input type="text" name="username"><br>
+        <label for="password">password:</label><br>
+        <input type="text" name="password"><br>
+        <input type="radio" name="gender" value="Male" id="Male"><label for="Male">Male</label>
+        <input type="radio" name="gender" value="Female" id="Female"><label for="Female">Female</label><br>
+        <input type="checkbox" name="foods" value="Grapes">Grapes<br>
+        <input type="checkbox" name="foods" value="Apple">Apple<br>
+        <input type="checkbox" name="foods" value="Banans">Banans<br>
+    </fieldset>
+    <fieldset>
+        <legend align="center">Option</legend> <!--atribut: align="center" da option do stredu-->
+        <label for="essay">We want to know more about you. <br> Write a short essay about you. </label><br>
+        <textarea name="assey" cols="30" rows="10"></textarea>
+    </fieldset>
+        <br>
+        <fieldset>
+            <legend>Origin</legend>        
+            <select name="continens" id="continens">
+            <optgroup label="Americas">
+            <option>North America</option>
+            <option>South America</option>
+        </optgroup>
+        <optgroup label="Eurasia">           
+            <option>Europe</option>
+            <option>Asia</option>
+        </optgroup>
+        <optgroup label="other">
+            <option>Africa</option>
+            <option>Australia</option>
+            <option>Antarctica</option>
+        </optgroup>
+        </select>
+    </fieldset>
+        <br>
+
+        <input type="submit" value="Submit"> <!--submit button-->
+    </form>
+</body>
+</html>
