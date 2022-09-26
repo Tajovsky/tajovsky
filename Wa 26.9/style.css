@@ -1,0 +1,38 @@
+body {
+    
+}
+address {
+    background-color: antiquewhite;
+    border: solid;
+    border-radius: 0.5ex;
+    margin-right: 230ex;
+    font-style: normal;
+
+}
+strong {
+    font-size: 125%;
+}
+main {
+    font: italic;
+}
+a:link {
+    text-decoration: none; color: purple;
+}
+.bul {
+    list-style: none;
+}
+h1, h2 {
+    text-align: center;
+}
+ol{
+    list-style-type: upper-roman;
+}
+
+dd {
+    display: none;
+}
+dt:hover + dd {
+    display: block;
+    color: darkgreen;
+    font-size: 15px;
+}
